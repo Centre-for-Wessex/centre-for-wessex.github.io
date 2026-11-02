@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Centre for Wessex</title>
+  <meta name="description" content="Centre for Wessex. Check back soon.">
+  <link rel="icon" href="wyvern.png" type="image/png">
+  <style>
+    @font-face {
+      font-family: "EB Garamond";
+      src: url("fonts/eb-garamond-latin-400-normal.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --paper: #f7f3ea;
+      --ink: #0a381e;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "EB Garamond", Garamond, "Cormorant Garamond", "Palatino Linotype", Georgia, serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem 1.5rem;
+    }
+
+    img {
+      display: block;
+      width: clamp(150px, 22vw, 260px);
+      height: auto;
+      margin: 0 auto 2.25rem;
+    }
+
+    p {
+      margin: 0;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="wyvern.png" alt="Wessex wyvern">
+    <p>Check back soon</p>
+  </main>
+</body>
+</html>
